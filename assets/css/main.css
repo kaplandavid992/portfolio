@@ -1763,6 +1763,17 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			
+		}
+
+		a > img {
+			object-fit: cover;
+			height: 163px;
+			border-radius: 4px;
+		}
+
+		a > img:hover {
+			scale: 1.1;
 		}
 
 		.image.avatar48 {
